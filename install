@@ -1,0 +1,3 @@
+INSTALL_DIRECTORY="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd $INSTALL_DIRECTORY
+npm install 
